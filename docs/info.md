@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This circuit performs 4-bit addition and subtraction. A dedicated input pin acts as a control signal. When the control pin is set to low (0), the circuit behaves as an adder. When set to high (1), it becomes a subtractor by converting the second input to its two's complement before adding.
+This circuit performs 4-bit addition and subtraction. A dedicated input pin acts as a control signal. When the reset pin is set to low (0), the circuit behaves as an adder. When set to high (1), it becomes a subtractor by converting the second input to its two's complement before adding.
 
 ## How to test
 
