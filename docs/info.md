@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-2 intups add or substract, depending on the configuration.
+This circuit performs 4-bit addition and subtraction. A dedicated input pin acts as a control signal. When the control pin is set to low (0), the circuit behaves as an adder. When set to high (1), it becomes a subtractor by converting the second input to its two's complement before adding.
 
 ## How to test
 
-Use digital inputs
+To test the circuit, provide two 4-bit numbers as inputs using the designated input pins. Use the separate control pin to switch between addition (low) and subtraction (high). The result of the operation will be displayed in binary on the output pins.
 
 ## External hardware
 
-Use a 7 segment display to get the result
+The binary output is converted to a decimal format using a BCD (Binary Coded Decimal) to 7-segment display decoder. The resulting decimal number is then shown on a 7-segment display for easy reading.
